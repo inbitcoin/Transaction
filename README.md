@@ -1,9 +1,6 @@
 # Colored Coins Transaction
-[![Build Status](https://travis-ci.org/Colored-Coins/Transaction.svg?branch=master)](https://travis-ci.org/Colored-Coins/Transaction) [![Coverage Status](https://coveralls.io/repos/Colored-Coins/Transaction/badge.svg?branch=master)](https://coveralls.io/r/Colored-Coins/Transaction?branch=master) [![npm version](https://badge.fury.io/js/cc-transaction.svg)](http://badge.fury.io/js/cc-transaction) [![Slack Status](http://slack.coloredcoins.org/badge.svg)](http://slack.coloredcoins.org)
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
-Colored Coins Transaction provides the basic functionality for creating and managing a Colored Coins Transaction Object
+> Colored Coins Transaction provides the basic functionality for creating and managing a Colored Coins Transaction Object
 
 ### Installation
 
@@ -38,24 +35,6 @@ this.torrentHash
 this.multiSig
 ```
 
-
-### TODO - Write documentation to the following functions
-
-```js
-function Transaction (rawData)
-Transaction.fromHex = function (op_return)
-Transaction.newTransaction = function (protocol, version)
-Transaction.prototype.addPayment = function (input, amount, output, range,percent)
-Transaction.prototype.addBurn = function (input, amount, percent)
-Transaction.prototype.setAmount = function (totalAmount, divisibility)
-Transaction.prototype.setLockStatus = function (lockStatus)
-Transaction.prototype.setAggregationPolicy = function (aggregationPolicy)
-Transaction.prototype.setHash = function (torrentHash, sha2)
-Transaction.prototype.encode = function ()
-Transaction.prototype.shiftOutputs = function(shiftAmount)
-
-```
-
 ### Testing
 
 In order to test you need to install [mocha] globaly on your machine
@@ -66,8 +45,7 @@ $ mocha
 ```
 
 
-License
-----
+### License
 
 This software is licensed under the Apache License, Version 2.0.
 See [LICENSE](LICENSE) for the full license text.
