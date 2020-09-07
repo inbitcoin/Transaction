@@ -5,7 +5,7 @@
   "main": "Transaction.js",
   "dependencies": {
     "cc-issuance-encoder": "git://github.com/inbitcoin/Issuance-Encoder.git#v1.1.2",
-    "cc-transfer-encoder": "^1.1.0"
+    "cc-transfer-encoder": "git://github.com/inbitcoin/Transfer-Encoder.git#v1.1.3"
   },
   "directories": {
     "test": "test"
